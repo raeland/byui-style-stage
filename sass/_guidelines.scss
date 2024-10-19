@@ -1,0 +1,71 @@
+#guidelines {
+  background-color: #fee57c;
+  h2 {
+  background-color: var(--color-secondary);
+  align-self: center;
+  color: #fee57c;
+  text-shadow: 2px 2px #000;
+  padding: 0.25em 0.5em;
+  -webkit-transform: skew(18deg);
+  -moz-transform: skew(18deg);
+  -o-transform: skew(18deg);
+  background: #4556be;
+  box-shadow: 8px 8px 8px #000;
+  }
+  h3 {
+    display: inline-block;
+    transform: rotate(-8deg) translateX(-10%);
+    background: linear-gradient(to right, #f77519, #39fef6, #fd89cf);
+
+    // @supports (background-clip: text) or (-webkit-background-clip: text) {
+    //   -webkit-background-clip: text;
+    //   background-clip: text;
+    //   color: transparent;
+    // }
+
+    @media (min-width: 120ch) {
+      transform: rotate(-8deg) translateX(-30%);
+    }
+  }
+
+  p {
+    color: #27337d;
+  }
+
+  a {
+    color: #000;
+    font-weight: 800;
+  }
+
+// .container a.guidelines {
+//   border-radius: 2px black;
+// }
+
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    p:nth-of-type(2) {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotate(4deg) translate(4.75rem, -3.5rem);
+        transform-origin: left center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #000;
+        font-size: 0.9em;
+        font-weight: normal;
+        content: "← Whoa, text gradients!";
+      }
+    }
+  }
+
+  .container > a {
+    align-self: center;
+    color: #39fef6;
+    background-color: #4557bf;
+    border-radius: 2px 2px black;
+    filter: drop-shadow(2px 2px black);
+  }
+}

@@ -1,0 +1,62 @@
+header {
+  --logomark-height: 2.3em;
+  --logomark-padding: 0 1em;
+
+  display: grid;
+  min-height: 40vh;
+  place-items: center;
+  padding: 10vh 2rem;
+  background-repeat: repeat-x;
+  background-position: 0 -38px, 20px -48px;
+  color: var(--color-primary-alt);
+  text-align: center;
+  background-color: #000;
+  background-image: repeating-linear-gradient(
+    -45deg, transparent, transparent 35px, 
+    rgba(255,255,255) 35px, 
+    rgba(255,255,255) 70px);
+
+  h1 {
+    //@include logomark;
+    padding: .2em .2em;
+    color: #fee57c;
+    font-size: 155px;
+    text-shadow: 2px 2px #000;
+    width: 9em;
+    height: 1.3em;
+    -webkit-transform: skew(18deg);
+    -moz-transform: skew(18deg);
+    -o-transform: skew(18deg);
+    background: #4556be;
+    box-shadow: 8px 8px 8px black;
+  }
+
+  h2 {
+    max-width: 55ch;
+    color: #4556be;
+    background-color: #fee57c;
+    text-shadow: 2px 2px #fff;
+    height: 2em;
+    -webkit-transform: skew(-18deg);
+    -moz-transform: skew(-18deg);
+    -o-transform: skew(-18deg);
+    box-shadow: -8px 8px 8px #000;
+  }
+  
+  p{
+    background-color: #f77519;
+    color: #000;
+    font-weight: 300;
+    padding: .2em .2em;
+    height: 2em;
+    -webkit-transform: skew(18deg);
+    -moz-transform: skew(18deg);
+    -o-transform: skew(18deg);
+    box-shadow: 8px 8px 8px black;
+    object-position: center;
+  }
+  a {
+    color: #000;
+    font-weight: 300;
+  }
+}

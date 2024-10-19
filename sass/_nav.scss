@@ -1,0 +1,141 @@
+nav {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0.25rem;
+      text-shadow: 3px 3px #000;
+      &:nth-child(1) a::before {
+      margin-bottom: .6em;
+      border-top: 50px solid transparent;
+      border-right: 100px solid #fff;
+      border-bottom: 50px 20px solid transparent;
+      filter: drop-shadow(-5px 8px #f77519);
+      // Change color for the first item
+      }
+
+      &:nth-child(2) a::before {
+        width: 0px;
+        height: 0px;
+        margin-top: 1.5em;
+        margin-bottom: .5em;
+        margin-left: 1.7em;
+        border-left: 50px 20px solid #fee57c;
+        border-bottom: 50px solid #fee57c;
+        border-left: 3px solid #fee57c;
+        border-right: 50px solid #fee57c;
+        box-shadow: 8px 8px 8px black;
+        // Change color for the second item
+      }
+
+      &:nth-child(3) a::before {
+        width: 0px;
+        height: 0px;
+        margin-top: .4em;
+        margin-left: 1.6em;
+        margin-bottom: .6em;
+        border: 25px solid #f77519;
+        border-radius: 60px;
+        box-shadow: 5px 5px 5px black;
+        // Change color for the third item
+      }
+
+      &:nth-child(4) a::before {
+        width: 0px;
+        height: 0px;
+        margin-top: 1.3em;
+        margin-bottom: .6em;
+        border-right: 25px solid var(--color-primary-yellow);
+        border-top: 55px solid #2dd2cb;
+        border-left: 55px solid #2dd2cb;
+        border-bottom: 35px solid #2dd2cb;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 90px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        box-shadow: 5px 5px 5px black;
+        // Change color for the fourth item
+      }
+
+      &:nth-child(5) a::before {
+        width: 0px;
+        height: 0px;
+        margin-left: 1.6em;
+        margin-bottom: .6em;
+        border-bottom: 80px solid #fda798;
+        border-left: 50px solid transparent;
+        border-right: 3px solid transparent;
+        box-shadow: 8px 8px 8px black;
+        box-shadow: 8px 8px 8px black;
+      }
+
+      &:nth-child(6) a::before {
+        width: 0px;
+        height: 0px;
+        margin-left: 1.7em;
+        margin-bottom: 1em;
+        border-right: 25px solid #f77519;
+        border-top: 35px solid #fc78ac;
+        border-left: 25px solid #2dd2cb;
+        border-bottom: 25px solid #fda798;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: transparent;
+        box-shadow: 5px 5px 5px black;
+      }
+      &:nth-child(1) a {
+        color: #fff; // Change text color for the first item
+      }
+
+      &:nth-child(2) a {
+        color: #fee57c; // Change text color for the second item
+      }
+
+      &:nth-child(3) a {
+        color: #f77519; // Change text color for the third item
+      }
+
+      &:nth-child(4) a {
+        color: #2dd2cb; // Change text color for the fourth item
+        //text-shadow: 2px #000;
+      }
+
+      &:nth-child(5) a {
+        color: #fda798; // Change text color for the fifth item
+      }
+
+      &:nth-child(6) a {
+        color: #fc78ac; // Change text color for the sixth item
+      }
+    }
+    a {
+      display: inline-grid;
+      padding: 0.5rem;
+      font-size: 1.25rem;
+      text-decoration: none;
+      &:nth-child(1)::before{
+        color: pink;
+      }
+      &:nth-child(2)::before {
+        color: #fee57c;
+      }
+      &::before {
+        width: 100%;
+        height: 0.33em;
+        opacity: 100;
+        content: "";
+      }
+      
+      &:hover::before,
+      &:focus::before {
+        opacity: 11;
+      }
+    }    
+  }
+}

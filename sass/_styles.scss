@@ -1,0 +1,137 @@
+.features {
+  position: relative;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
+  background-color: #000;
+
+  li {
+    display: grid;
+    position: relative;
+    place-content: center;
+    min-height: 12rem;
+    padding: 2rem 2em auto;
+    color: #4557bf;
+    font-family: "FontDiner Swanky", decorative;
+    // text-transform: uppercase;
+    text-align: center;
+
+    > span {
+      display: grid;
+      place-content: center;
+      padding: .5em;
+      grid-gap: 1em;
+      //border: 1px solid var(--color-light);
+      //background-color: var(--color-secondary);
+      line-height: 1.1;
+
+      a {
+        color: inherit;
+        font-size: 1.3rem;
+        font-weight: var(--font-weight-strong);
+        text-decoration: none;
+
+        // stylelint-disable-next-line max-nesting-depth
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          content: "";
+        }
+      }
+
+      span:nth-child(2) {
+        position: relative;
+      }
+    }
+  }
+}
+
+#styles {
+  margin: 5vh 0 20vh;
+  text-align: center;
+  background-color: #000;
+  background-image: repeating-linear-gradient(
+    -45deg, transparent, transparent 35px, 
+    rgba(255,255,255) 35px, 
+    rgba(255,255,255) 70px);
+  
+
+  h2 {
+    color: #4556be;
+    background-color: #fee57c;
+    text-shadow: 2px 2px #fff;
+    -webkit-transform: skew(18deg);
+    -moz-transform: skew(18deg);
+    -o-transform: skew(18deg);
+    box-shadow: 8px 8px 8px #000;
+  }
+}
+
+#styles .features,
+.features.patterned {
+  background-color: #fda798;
+    text-shadow: 2px 2px #fff;
+    -webkit-transform: skew(-18deg);
+    -moz-transform: skew(-18deg);
+    -o-transform: skew(-18deg);
+    box-shadow: -8px 8px 8px #000;
+    
+  li {
+    height: 50px;
+    // margin-top: .4em;
+    // margin-left: 1.6em;
+    // margin-bottom: .6em;
+    border: 20px solid #f77519;
+    border-radius: 50%;
+    background-color: #fcfcfc;
+    box-shadow: 5px 5px 5px black;
+
+    @media (min-width: 515px) and (max-width: 765px) {
+      &:nth-last-child(1):nth-child(odd) {
+        grid-column: span 2;
+      }
+    }
+  }
+
+  &::after {
+    position: absolute;
+    bottom: -2.7em;
+    width: 10ch;
+    padding-top: 4em;
+    transform: rotate(15deg);
+    transform-origin: bottom right;
+    background-size: 80%;
+    color: #fee57c;
+    font-size: 3rem;
+    text-shadow: 1px 1px #4557bf, 
+                2px 2px #4557bf, 
+                3px 3px #27337d,
+                4px 4px #4557bf,
+                5px 5px #4557bf, 
+                6px 6px #2dd2cb, 
+                7px 7px #2dd2cb,
+                8px 8px #2dd2cb, 
+                9px 9px #39fef6,
+                10px 10px #39fef6, 
+                11px 11px #39fef6, 
+                12px 12px #fd89cf,
+                13px 13px #fd89cf, 
+                14px 14px #fd89cf, 
+                15px 15px #fda798,
+                16px 16px #fda798,
+                17px 17px #f07e66,
+                18px 18px #f07e66,
+                19px 19px #fee57c, 
+                20px 20px #fee57c, 
+                21px 21px #fee57c,
+                22px 22px #39fef6, 
+                23px 23px #39fef6, 
+                24px 24px #2dd2cb,
+                25px 25px #2dd2cb,
+                26px 26px #4557bf,
+                27px 27px #4557bf;
+    content: "Grid FTW!";
+  }
+}
