@@ -1,47 +1,39 @@
-$color-primary: #fee57c !default;
-$color-primary-alt: #ffdeda !default;
-$color-teal: #39fef6 !default;
+$color-primary: #cc1530 !default;
+$color-primary-alt: #fae81a !default;
+$color-blue: #008ab7 !default;
 $color-secondary-pink: #fdcaef !default;
 $color-orange: #f77519 !default;
-$color-background: #27337d !default;
+$color-background: #5c2c91 !default;
 $color-background-alt: #4557bf !default;
 $color-peach: #fda798 !default;
 $color-pink-alt: #fd89cf !default;
 $color-white: #fff !default;
 $color-black: #000 !default;
-$color-teal-alt: #39fef6 !default;
+$color-blue-alt: #39fef6 !default;
 $color-text: #fff !default;
 $color-anchor: #fff !default;
 
-// #5d2b7d - deep purple
-// #a72d89 - fandango
-// #1467bb - blue
-// #8fc33e - green
-// #feee22 - yellow
-// #e41e26 - red
+// #5d2b7d - deep purple Aldairs Colors #5c2c91
+// #a72d89 - fandango    Aldairs Colors #ef7c24
+// #1467bb - blue        Aldairs Colors #008ab7
+// #8fc33e - green       Aldairs Colors #9cc03c
+// #feee22 - yellow      Aldairs Colors #fae81a
+// #e41e26 - red         Aldairs Colors #cc1530
 // from: https://www.schemecolor.com/skittles-logo-colors.php
 
 $brand-colors: (
   primary: $color-primary,
   primary-alt: $color-primary-alt,
-  secondary: $color-teal,
-) !default;
+  secondary: $color-blue,
+  ) !default;
 
-$color-body:$color-background;
-// $color-body: scale-color(
-//   $color-primary-yellow,
-//   // $lightness: -30%,
-// //   // $saturation: -50%
-// ) !default;
- $color-gray: mix(#767676, $color-body, 70%) !default;
+$color-body: $color-background;
 
-$colors: map-merge(
-  $brand-colors,
-  (
-    background: $color-background,
-    text: $color-primary-alt,
-    light: #fff,
-  )
+$colors: map-merge($brand-colors,
+    (ackground: $color-background,
+      text: $color-primary-alt,
+      light: #fff,
+    )
 );
 
 $anchor-colors: (
@@ -53,10 +45,10 @@ $anchor-colors: (
 }
 
 @function svgColor($color) {
-  @return "%23" + str-slice("#{color($color)}", 2, -1);
+  @return "%23"+str-slice("#{color($color)}", 2, -1);
 }
 
-$link-color:#fff !default;
+$link-color: #fff !default;
 $border-radius: 8px !default;
 
 $font-weight-strong: 500 !default;
@@ -81,7 +73,8 @@ $font-sizes: (
   }
 
   --color-anchor: #{$link-color};
-  --font-family: "Baloo 2", sans-serif;
+  --font-family: "Baloo 2",
+  sans-serif;
   --font-weight-strong: #{$font-weight-strong};
 
   @each $key, $size in $font-sizes {

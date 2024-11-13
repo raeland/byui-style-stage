@@ -11,10 +11,7 @@ header {
   color: var(--color-primary-alt);
   text-align: center;
   background-color: #000;
-  background-image: repeating-linear-gradient(
-    -45deg, transparent, transparent 35px, 
-    rgba(255,255,255) 35px, 
-    rgba(255,255,255) 70px);
+  background-image: url(./image.svg);
 
   h1 {
     //@include logomark;
@@ -24,9 +21,9 @@ header {
     text-shadow: 2px 2px #000;
     width: 9em;
     height: 1.3em;
-    -webkit-transform: skew(18deg);
-    -moz-transform: skew(18deg);
-    -o-transform: skew(18deg);
+    // -webkit-transform: skew(18deg);
+    // -moz-transform: skew(18deg);
+    // -o-transform: skew(18deg);
     background: #4556be;
     box-shadow: 8px 8px 8px black;
   }
@@ -37,9 +34,9 @@ header {
     background-color: #fee57c;
     text-shadow: 2px 2px #fff;
     height: 2em;
-    -webkit-transform: skew(-18deg);
-    -moz-transform: skew(-18deg);
-    -o-transform: skew(-18deg);
+    // -webkit-transform: skew(-18deg);
+    // -moz-transform: skew(-18deg);
+    // -o-transform: skew(-18deg);
     box-shadow: -8px 8px 8px #000;
   }
   
@@ -49,9 +46,9 @@ header {
     font-weight: 300;
     padding: .2em .2em;
     height: 2em;
-    -webkit-transform: skew(18deg);
-    -moz-transform: skew(18deg);
-    -o-transform: skew(18deg);
+    // -webkit-transform: skew(18deg);
+    // -moz-transform: skew(18deg);
+    // -o-transform: skew(18deg);
     box-shadow: 8px 8px 8px black;
     object-position: center;
   }
