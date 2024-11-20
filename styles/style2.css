@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+}
+
+
+header a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header svg {
+    width: 20px;
+    height: 20px;
+}
+
+.skip-link {
+    display: none;
+}
+
+
+footer svg {
+    width: 20px;
+    height: 20px;
+}
+
+article#about > section.container:first-of-type {
+    background-color: #5C2C91;
+    color: white;
+}
+
+article#about > section.container:nth-of-type(2){
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+    
+}
+
+article#guidelines > section.container:first-of-type {
+    background-color: #5C2C91;
+    color: white;
+}
+
+article#contribute {
+    background-color: #5C2C91;
+    color: white;
+}
+
+footer#files {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+}
+
+.profile {
+    background-color: #5C2C91;
+    color: white;
+}
+
+#styles {
+    background-color: #FAE81A;
+    color: #5C2C91;
+}
+
+a {
+    text-decoration: none;
+    color: #EF7C24;
+}
+
+footer.page-footer {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+}
