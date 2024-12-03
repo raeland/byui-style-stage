@@ -81,3 +81,27 @@ article#contribute {
     color: #5C2C91;
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: #EF7C24;
+}
+
+
+/* Footer */
+
+footer#files {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+    padding: 10px;
+}
+
+footer.page-footer {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+    padding: 10px;
+}
