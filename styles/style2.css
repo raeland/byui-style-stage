@@ -1,8 +1,24 @@
 
+/* General*/
+
 body {
     margin: 0;
+    font-family: "Raleway", sans-serif;
 }
 
+h1, h2, h3, h4, p, a, ul li, ol li {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p a, ul li a, ol li a {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+
+/* Header */
 
 header a {
     margin: 0;
@@ -14,9 +30,10 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 10px;
 }
 
-header svg {
+header svg, footer svg {
     width: 20px;
     height: 20px;
 }
@@ -25,15 +42,12 @@ header svg {
     display: none;
 }
 
-
-footer svg {
-    width: 20px;
-    height: 20px;
-}
+/* Main */
 
 article#about > section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
+    padding: 10px;
 }
 
 article#about > section.container:nth-of-type(2){
@@ -41,44 +55,29 @@ article#about > section.container:nth-of-type(2){
     background-size: cover;
     background-position: center;
     color: #5C2C91;
-    
+    padding: 10px;
 }
 
 article#guidelines > section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
+    padding: 10px;
 }
 
 article#contribute {
     background-color: #5C2C91;
     color: white;
-}
-
-footer#files {
-    background-image: url('../images/sky.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #5C2C91;
+    padding-top: 10px;
 }
 
 .profile {
     background-color: #5C2C91;
     color: white;
+    padding: 10px;
 }
 
 #styles {
     background-color: #FAE81A;
     color: #5C2C91;
-}
-
-a {
-    text-decoration: none;
-    color: #EF7C24;
-}
-
-footer.page-footer {
-    background-image: url('../images/sky.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #5C2C91;
+    padding: 10px;
 }
