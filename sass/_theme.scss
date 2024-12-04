@@ -25,7 +25,7 @@ $color-body:$color-background;
 //   // $lightness: -30%,
 // //   // $saturation: -50%
 // ) !default;
- $color-gray: mix(#767676, $color-body, 70%) !default;
+ $color-gray: color.mix(#767676, $color-body, 70%) !default;
 
 $colors: map-merge(
   $brand-colors,
