@@ -1,1 +1,552 @@
 node_modules/
+
+# ac-mini:byui-style-stage rachaelvarady$ git log
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# :...skipping...
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:06:56 2024 -0500
+
+#     w
+
+# commit db478a844fc9956c7b1ee51f9bfa555f5d4ab33c
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 21:46:05 2024 -0500
+
+#     images added
+
+# commit 40be90e90105833d66906758d22f9ca4347d6c89 (origin/main, origin/HEAD)
+# Merge: ef1eebe 8ceebe3
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 20:07:51 2024 -0500
+
+#     Merge pull request #3 from raeland/svg-test
+    
+#     using only fonts and starter sass files
+
+# commit 8ceebe37fb07db54b206d555dd8f83aa1bc676db (origin/svg-test)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 20:05:21 2024 -0500
+
+#     using only fonts and starter sass files
+
+# commit ef1eebe7a779f4e6c67a32b0a1d0ed42b8c532d3
+# Merge: 0937ca7 c51519e
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:28 2024 -0500
+
+#     Merge pull request #2 from raeland/svg-test
+    
+#     Svg test
+
+# commit c51519e3f7901d190414167de5dcf955de5dabc9
+# Merge: b6fa2a7 0937ca7
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:14 2024 -0500
+
+#     Merge branch 'main' into svg-test
+
+# commit b6fa2a72f62f431f88312c7460667480a8b5bbed
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:42:30 2024 -0500
+
+#     transferring style2 to sass files
+
+# commit 8e36b29338e7d23d3dfd2d3577a0c352642b153e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:29:11 2024 -0500
+
+#     removed webkits
+
+# commit 1192bbd9940692c9e787213df5af384d2cb217d3
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:28:32 2024 -0700
+
+#     .
+
+# :...skipping...
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:06:56 2024 -0500
+
+#     w
+
+# commit db478a844fc9956c7b1ee51f9bfa555f5d4ab33c
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 21:46:05 2024 -0500
+
+#     images added
+
+# commit 40be90e90105833d66906758d22f9ca4347d6c89 (origin/main, origin/HEAD)
+# Merge: ef1eebe 8ceebe3
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 20:07:51 2024 -0500
+
+#     Merge pull request #3 from raeland/svg-test
+    
+#     using only fonts and starter sass files
+
+# commit 8ceebe37fb07db54b206d555dd8f83aa1bc676db (origin/svg-test)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 20:05:21 2024 -0500
+
+#     using only fonts and starter sass files
+
+# commit ef1eebe7a779f4e6c67a32b0a1d0ed42b8c532d3
+# Merge: 0937ca7 c51519e
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:28 2024 -0500
+
+#     Merge pull request #2 from raeland/svg-test
+    
+#     Svg test
+
+# commit c51519e3f7901d190414167de5dcf955de5dabc9
+# Merge: b6fa2a7 0937ca7
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:14 2024 -0500
+
+#     Merge branch 'main' into svg-test
+
+# commit b6fa2a72f62f431f88312c7460667480a8b5bbed
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:42:30 2024 -0500
+
+#     transferring style2 to sass files
+
+# commit 8e36b29338e7d23d3dfd2d3577a0c352642b153e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:29:11 2024 -0500
+
+#     removed webkits
+
+# commit 1192bbd9940692c9e787213df5af384d2cb217d3
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:28:32 2024 -0700
+
+#     .
+
+# commit 98b8e4cabf941a69b12071471bcb348ea2d9281b
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:23:02 2024 -0700
+
+#     .
+
+# commit 0937ca7b6e438b7a0423106413ac89073f6f3179
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:16:14 2024 -0500
+
+#     style2.css
+
+# commit f5fbf2dbbc86d4aa2b92d56938820dca47599e81 (origin/rsv-svg)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:05:44 2024 -0500
+
+#     skittle svg
+
+# :...skipping...
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:06:56 2024 -0500
+
+#     w
+
+# commit db478a844fc9956c7b1ee51f9bfa555f5d4ab33c
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 21:46:05 2024 -0500
+
+#     images added
+
+# commit 40be90e90105833d66906758d22f9ca4347d6c89 (origin/main, origin/HEAD)
+# Merge: ef1eebe 8ceebe3
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 20:07:51 2024 -0500
+
+#     Merge pull request #3 from raeland/svg-test
+    
+#     using only fonts and starter sass files
+
+# commit 8ceebe37fb07db54b206d555dd8f83aa1bc676db (origin/svg-test)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 20:05:21 2024 -0500
+
+#     using only fonts and starter sass files
+
+# commit ef1eebe7a779f4e6c67a32b0a1d0ed42b8c532d3
+# Merge: 0937ca7 c51519e
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:28 2024 -0500
+
+#     Merge pull request #2 from raeland/svg-test
+    
+#     Svg test
+
+# commit c51519e3f7901d190414167de5dcf955de5dabc9
+# Merge: b6fa2a7 0937ca7
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:14 2024 -0500
+
+#     Merge branch 'main' into svg-test
+
+# commit b6fa2a72f62f431f88312c7460667480a8b5bbed
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:42:30 2024 -0500
+
+#     transferring style2 to sass files
+
+# commit 8e36b29338e7d23d3dfd2d3577a0c352642b153e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:29:11 2024 -0500
+
+#     removed webkits
+
+# commit 1192bbd9940692c9e787213df5af384d2cb217d3
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:28:32 2024 -0700
+
+#     .
+
+# commit 98b8e4cabf941a69b12071471bcb348ea2d9281b
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:23:02 2024 -0700
+
+#     .
+
+# commit 0937ca7b6e438b7a0423106413ac89073f6f3179
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:16:14 2024 -0500
+
+#     style2.css
+
+# commit f5fbf2dbbc86d4aa2b92d56938820dca47599e81 (origin/rsv-svg)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:05:44 2024 -0500
+
+#     skittle svg
+
+# commit ee0ee118d6c2f94c3fbd412eb051181404771ba8
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:55:12 2024 -0700
+
+#     style2
+
+# commit f507e2ebbc27974ee685cbb5bea36fd8b4d5e106
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:52:09 2024 -0700
+
+#     test
+
+# commit 4a8227c38907631e1a4f2c127ced096d6396ddd4
+# Author: raeland <rsvarady@gmail.com>
+# :...skipping...
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:06:56 2024 -0500
+
+#     w
+
+# commit db478a844fc9956c7b1ee51f9bfa555f5d4ab33c
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 21:46:05 2024 -0500
+
+#     images added
+
+# commit 40be90e90105833d66906758d22f9ca4347d6c89 (origin/main, origin/HEAD)
+# Merge: ef1eebe 8ceebe3
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 20:07:51 2024 -0500
+
+#     Merge pull request #3 from raeland/svg-test
+    
+#     using only fonts and starter sass files
+
+# commit 8ceebe37fb07db54b206d555dd8f83aa1bc676db (origin/svg-test)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 20:05:21 2024 -0500
+
+#     using only fonts and starter sass files
+
+# commit ef1eebe7a779f4e6c67a32b0a1d0ed42b8c532d3
+# Merge: 0937ca7 c51519e
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:28 2024 -0500
+
+#     Merge pull request #2 from raeland/svg-test
+    
+#     Svg test
+
+# commit c51519e3f7901d190414167de5dcf955de5dabc9
+# Merge: b6fa2a7 0937ca7
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:14 2024 -0500
+
+#     Merge branch 'main' into svg-test
+
+# commit b6fa2a72f62f431f88312c7460667480a8b5bbed
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:42:30 2024 -0500
+
+#     transferring style2 to sass files
+
+# commit 8e36b29338e7d23d3dfd2d3577a0c352642b153e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:29:11 2024 -0500
+
+#     removed webkits
+
+# commit 1192bbd9940692c9e787213df5af384d2cb217d3
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:28:32 2024 -0700
+
+#     .
+
+# commit 98b8e4cabf941a69b12071471bcb348ea2d9281b
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:23:02 2024 -0700
+
+#     .
+
+# commit 0937ca7b6e438b7a0423106413ac89073f6f3179
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:16:14 2024 -0500
+
+#     style2.css
+
+# commit f5fbf2dbbc86d4aa2b92d56938820dca47599e81 (origin/rsv-svg)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:05:44 2024 -0500
+
+#     skittle svg
+
+# commit ee0ee118d6c2f94c3fbd412eb051181404771ba8
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:55:12 2024 -0700
+
+#     style2
+
+# commit f507e2ebbc27974ee685cbb5bea36fd8b4d5e106
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:52:09 2024 -0700
+
+#     test
+
+# commit 4a8227c38907631e1a4f2c127ced096d6396ddd4
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Sat Oct 19 18:36:43 2024 -0400
+# :...skipping...
+# commit 8586a0585987e2fbd7957948455ba648d43510ee (HEAD -> main)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 23:15:04 2024 -0500
+
+#     yup
+
+# commit 26e8f649fb1364fb60fee5f583a7d93f54540d8e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:38:57 2024 -0500
+
+#     pretty please
+
+# commit 81aa18e90b109b010bc6aede1aae971cdbff1c6b
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:19:47 2024 -0500
+
+#     again?
+
+# commit a1f91a91269a303a894832c5463a785afec6deaf
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 22:06:56 2024 -0500
+
+#     w
+
+# commit db478a844fc9956c7b1ee51f9bfa555f5d4ab33c
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Wed Dec 4 21:46:05 2024 -0500
+
+#     images added
+
+# commit 40be90e90105833d66906758d22f9ca4347d6c89 (origin/main, origin/HEAD)
+# Merge: ef1eebe 8ceebe3
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 20:07:51 2024 -0500
+
+#     Merge pull request #3 from raeland/svg-test
+    
+#     using only fonts and starter sass files
+
+# commit 8ceebe37fb07db54b206d555dd8f83aa1bc676db (origin/svg-test)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 20:05:21 2024 -0500
+
+#     using only fonts and starter sass files
+
+# commit ef1eebe7a779f4e6c67a32b0a1d0ed42b8c532d3
+# Merge: 0937ca7 c51519e
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:28 2024 -0500
+
+#     Merge pull request #2 from raeland/svg-test
+    
+#     Svg test
+
+# commit c51519e3f7901d190414167de5dcf955de5dabc9
+# Merge: b6fa2a7 0937ca7
+# Author: raeland <133458971+raeland@users.noreply.github.com>
+# Date:   Tue Dec 3 19:47:14 2024 -0500
+
+#     Merge branch 'main' into svg-test
+
+# commit b6fa2a72f62f431f88312c7460667480a8b5bbed
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:42:30 2024 -0500
+
+#     transferring style2 to sass files
+
+# commit 8e36b29338e7d23d3dfd2d3577a0c352642b153e
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Dec 3 19:29:11 2024 -0500
+
+#     removed webkits
+
+# commit 1192bbd9940692c9e787213df5af384d2cb217d3
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:28:32 2024 -0700
+
+#     .
+
+# commit 98b8e4cabf941a69b12071471bcb348ea2d9281b
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Mon Dec 2 20:23:02 2024 -0700
+
+#     .
+
+# commit 0937ca7b6e438b7a0423106413ac89073f6f3179
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:16:14 2024 -0500
+
+#     style2.css
+
+# commit f5fbf2dbbc86d4aa2b92d56938820dca47599e81 (origin/rsv-svg)
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Tue Nov 26 18:05:44 2024 -0500
+
+#     skittle svg
+
+# commit ee0ee118d6c2f94c3fbd412eb051181404771ba8
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:55:12 2024 -0700
+
+#     style2
+
+# commit f507e2ebbc27974ee685cbb5bea36fd8b4d5e106
+# Author: aldairmb <aldairmorales.banda@gmail.com>
+# Date:   Tue Nov 19 17:52:09 2024 -0700
+
+#     test
+
+# commit 4a8227c38907631e1a4f2c127ced096d6396ddd4
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Sat Oct 19 18:36:43 2024 -0400
+
+#     maybe now?
+
+# commit 614260bfc0671e7d03bf2bd025b9dd6de6049129
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Sat Oct 19 18:16:18 2024 -0400
+
+#     second commit
+
+# commit 004559a35b4a5e2b976832f7300ae002bad4d9bd
+# Author: raeland <rsvarady@gmail.com>
+# Date:   Sat Oct 19 18:13:40 2024 -0400
+
+# :

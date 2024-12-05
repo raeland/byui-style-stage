@@ -7,10 +7,9 @@
     "scss": "sass --no-source-map sass:public",
     "watch": "sass --no-source-map --watch sass:public",
     "serve": "browser-sync start --server public --files public --port 1337",
-    "start": "npm-run-all sass --watch serve"
+    "start": "npm-run-all sass --parallel watch serve"
   },
   "keywords": [
-    "style stage",
     "sass"
   ],
   "author": "5t3ph",

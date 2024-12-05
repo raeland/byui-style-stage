@@ -48,7 +48,7 @@ article#about > section.container:first-of-type {
 }
 
 article#about > section.container:nth-of-type(2) {
-  background-image: url("../images/sky.jpg");
+  background-image: url("../public/images/sky.jpg");
   background-size: cover;
   background-position: center;
   color: #5C2C91;
@@ -86,7 +86,7 @@ a {
 
 /* Footer */
 footer#files {
-  background-image: url("../images/sky.jpg");
+  background-image: url("../public/images/sky.jpg");
   background-size: cover;
   background-position: center;
   color: #5C2C91;
