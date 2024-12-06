@@ -14,7 +14,7 @@ a,
 ul li,
 ol li {
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 p a,
@@ -146,7 +146,7 @@ aside#profile {
 
 /* Footer */
 footer.page-footer {
-  background-color: #5C2C91;
+  background-color: #9CC03C;
   background-size: cover;
   background-position: center;
   color: #fff;
