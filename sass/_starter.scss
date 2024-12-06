@@ -1,4 +1,3 @@
-
 /* General*/
 
 body {
@@ -6,12 +5,21 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-h1, h2, h3, h4, p, a, ul li, ol li {
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+ul li,
+ol li {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-p a, ul li a, ol li a {
+p a,
+ul li a,
+ol li a {
     display: inline;
     padding: 0;
     margin: 0;
@@ -33,7 +41,8 @@ header {
     padding: 10px;
 }
 
-header svg, footer svg {
+header svg,
+footer svg {
     width: 20px;
     height: 20px;
 }
@@ -44,21 +53,21 @@ header svg, footer svg {
 
 /* Main */
 
-article#about > section.container:first-of-type {
+article#about>section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
     padding: 10px;
 }
 
-article#about > section.container:nth-of-type(2){
-    background-image: url('../images/sky.jpg');
+article#about>section.container:nth-of-type(2) {
+    background-image: url('../public/images/sky.jpg');
     background-size: cover;
     background-position: center;
     color: #5C2C91;
     padding: 10px;
 }
 
-article#guidelines > section.container:first-of-type {
+article#guidelines>section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
     padding: 10px;
@@ -76,8 +85,57 @@ article#contribute {
     padding: 10px;
 }
 
-#styles {
+/* Source Files */
+footer#files {
     background-color: #FAE81A;
+    color: #5C2C91;
+    padding: 1px;
+}
+
+#files {
+    background-color: #FAE81A;
+
+}
+
+#files {
+    display: grid;
+    place-content: center;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+//   #files h3 {
+//     height: 0;
+//     opacity: 0;
+//   }
+#files .container {
+    display: inline-block;
+    padding: 5em 15em;
+    background-color: #FAE81A;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 5.4em;
+}
+
+#files .container a:not(:last-child) {
+    margin: 0.5rem;
+    background-image: url('../public/images/yellow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#files .container a:not(:last-child):not(.link-codepen) {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-family: "Akaya Kanadaka", decorative;
+    color: #27337d;
+}
+
+/* Featured Styles */
+aside#styles {
+    background-image: url('../public/images/sky.jpg');
+    background-size: cover;
+    background-position: center;
     color: #5C2C91;
     padding: 10px;
 }
@@ -87,21 +145,17 @@ a {
     color: #EF7C24;
 }
 
-
-/* Footer */
-
-footer#files {
-    background-image: url('../images/sky.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #5C2C91;
-    padding: 10px;
+/* Created and maintained by Stephanie... */
+/* need to find way to keep in one place or add an animation to it -Rachael */
+aside#profile {
+    background-color: #5C2C91;
 }
 
+/* Footer */
 footer.page-footer {
-    background-image: url('../images/sky.jpg');
+    background-color: #5C2C91;
     background-size: cover;
     background-position: center;
-    color: #5C2C91;
+    color: #fff;
     padding: 10px;
 }
