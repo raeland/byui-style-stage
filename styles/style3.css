@@ -1,0 +1,60 @@
+
+nav ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0;        /* Remove default margins */
+    padding: 0;       /* Remove default padding */
+    margin-left:-5%;
+    margin-right:5%;
+}
+
+nav ul li {
+    background-color: #ffffff; /* Default background */
+    width: 100%;               /* Ensure the items span the entire width */
+}
+
+nav ul li:nth-child(1) {
+    background-color: #CC1530; /* Red */
+}
+
+nav ul li:nth-child(2) {
+    background-color: #EF7C24; /* Orange */
+}
+
+nav ul li:nth-child(3) {
+    background-color: #FAE81A; /* Yellow */
+}
+
+nav ul li:nth-child(4) {
+    background-color: #9CC03C; /* Green */
+}
+
+nav ul li:nth-child(5) {
+    background-color: #008AB7; /* Blue */
+}
+
+nav ul li:nth-child(6) {
+    background-color: #5C2C91; /* Blue */
+}
+
+
+nav ul li a {
+    display: block;       /* Makes the links fill the list item */
+    color: white;         /* Text color for contrast */
+    text-decoration: none;/* Removes underline */
+    padding: 15px;        /* Add spacing for better look */
+    text-align: center;   /* Centers the text */
+}
+
+
+body {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows */
+}
+
+nav {
+    grid-row: 1; /* Place nav in the first row */
+}
+
+header {
+    grid-row: 2; /* Place header in the second row */
+}
