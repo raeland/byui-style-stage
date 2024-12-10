@@ -1,6 +1,6 @@
 Before you begin working type:
 
-sass --watch sass:styles
+sass --watch sass:style
 
 in terminal to ensure you see your work reflected in the local host
 
