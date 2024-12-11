@@ -1,23 +1,15 @@
 @use "fonts";
 @use "starter";
 @use "svgs";
+@use "header";
 @use "nav";
+@use "footer";
+@use "animation";
 // You can modify the theme directly, or override some of the variables
 // Overrides just need placed prior to the theme import
-// For example:
-// @use "theme";
-// @import "layout";
 // @import "reset";
 // @import "logomark";
-// @import "typography";
-// @import "header";
-// @import "nav";
 // @import "about";
-// @import "guidelines";
 // @import "contribute";
 // @import "files";
-// @import "styles";
-// @import "profile";
-// @import "animation";
-// @import "footer";
 // @import "links";

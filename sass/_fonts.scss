@@ -16,12 +16,31 @@ h1 {
     margin-bottom: 0;
 }
 
-
 h2, h3, h4 {
     font-size: 200%;
     color: #FAE81A;
 }
 
-#styles a, #styles h2, header h2, footer.page-footer a, header a, header p, article#about > section.container:nth-of-type(2) a, footer#files a {
+#styles a, 
+#styles h2, 
+header h2, 
+footer.page-footer a, 
+header a, 
+header p, 
+article#about > section.container:nth-of-type(2) a, 
+#files a,
+#files h3 {
     color: #5C2C91;
+}
+
+.link-downloadcss, 
+.link-downloadthml, 
+.link-codepen {
+    font-size: 100%;
+    height: 2px;
+    color: #5C2C91;
+}
+a {
+    text-decoration: none;
+    color: #EF7C24;
 }
