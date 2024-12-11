@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+h1 {
+  color: white;
+  font-size: 600%;
+  font-weight: 900;
+  text-shadow: 4px 4px 0 red, -4px 4px 0 red, 4px -4px 0 red, -4px -4px 0 red, 4px 0px 0 red, -4px 0px 0 red, 0px 4px 0 red, 0px -4px 0 red;
+  margin-bottom: 0;
+}
+
+h2, h3, h4 {
+  font-size: 200%;
+  color: #FAE81A;
+}
+
+#styles a, #styles h2, header h2, footer.page-footer a, header a, header p, article#about > section.container:nth-of-type(2) a, footer#files a {
+  color: #5C2C91;
+}
+
 /* General*/
 body {
   margin: 0;
@@ -23,7 +40,13 @@ ol li a {
   display: inline;
   padding: 0;
   margin: 0;
+  font-weight: bold;
   line-height: normal;
+}
+
+a {
+  color: white;
+  font-weight: bold;
 }
 
 body::after {
@@ -68,6 +91,7 @@ article#about > section.container:first-of-type {
   background-color: #5C2C91;
   color: white;
   padding: 10px;
+  padding-bottom: 50px;
 }
 
 /* About - Modern CSS Under the Spotlight */
@@ -77,6 +101,7 @@ article#about > section.container:nth-of-type(2) {
   background-position: center;
   color: #5C2C91;
   padding: 10px;
+  padding-bottom: 50px;
 }
 
 /* skittles list */
@@ -152,13 +177,15 @@ article#contribute {
   background-color: #5C2C91;
   color: white;
   padding: 10px;
+  padding-bottom: 50px;
 }
 
 /* Source Files */
 footer#files {
   background-color: #FAE81A;
   color: #5C2C91;
-  padding: 1px;
+  padding: 10px;
+  padding-bottom: 50px;
   display: grid;
   place-content: center;
   margin: 5vh auto;
@@ -193,6 +220,8 @@ aside#styles {
   background-position: center;
   color: #5C2C91;
   padding: 10px;
+  padding-bottom: 50px;
+  margin-top: 50px;
 }
 
 a {
@@ -214,5 +243,80 @@ footer.page-footer {
   color: #fff;
   padding: 10px;
 }
+
+@media (max-width: 1000px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    margin-left: -10px;
+  }
+  nav ul li {
+    flex-grow: 0;
+    width: 100%;
+  }
+}
+/****** ALDAIR ******/
+/* The commented out nav below shows the top nav version but doesn't spread wide */
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  margin-left: -5%;
+  margin-right: 5%;
+}
+
+nav ul li {
+  background-color: #ffffff; /* Default background */
+  width: 100%; /* Ensure the items span the entire width */
+}
+
+nav ul li:nth-child(1) {
+  background-color: #CC1530; /* Red */
+}
+
+nav ul li:nth-child(2) {
+  background-color: #EF7C24; /* Orange */
+}
+
+nav ul li:nth-child(3) {
+  background-color: #FAE81A; /* Yellow */
+}
+
+nav ul li:nth-child(4) {
+  background-color: #9CC03C; /* Green */
+}
+
+nav ul li:nth-child(5) {
+  background-color: #008AB7; /* Blue */
+}
+
+nav ul li:nth-child(6) {
+  background-color: #5C2C91; /* Blue */
+}
+
+nav ul li a {
+  display: block; /* Makes the links fill the list item */
+  color: white; /* Text color for contrast */
+  text-decoration: none; /* Removes underline */
+  padding: 15px; /* Add spacing for better look */
+  text-align: center; /* Centers the text */
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows */
+}
+
+nav {
+  grid-row: 1; /* Place nav in the first row */
+}
+
+header {
+  grid-row: 2; /* Place header in the second row */
+}
+
+/* Nav */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: white;
+    font-size: 600%;
+    font-weight: 900;
+    text-shadow: 
+        4px 4px 0 red, 
+       -4px 4px 0 red, 
+        4px -4px 0 red, 
+       -4px -4px 0 red,
+        4px 0px 0 red, 
+       -4px 0px 0 red, 
+        0px 4px 0 red, 
+        0px -4px 0 red;
+    margin-bottom: 0;
+}
+
+
+h2, h3, h4 {
+    font-size: 200%;
+    color: #FAE81A;
+}
+
+#styles a, #styles h2, header h2, footer.page-footer a, header a, header p, article#about > section.container:nth-of-type(2) a, footer#files a {
+    color: #5C2C91;
+}
