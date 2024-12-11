@@ -1,24 +1,62 @@
-
 /* General*/
-
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
 }
 
-h1, h2, h3, h4, p, a, ul li, ol li {
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+ul li,
+ol li {
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
 
-p a, ul li a, ol li a {
+p a,
+ul li a,
+ol li a {
     display: inline;
     padding: 0;
     margin: 0;
+    font-weight: bold;
     line-height: normal;
 }
 
-/* Header */
+a {
+    color: white;
+    font-weight: bold;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    right: 5%;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    pointer-events: none;
+    background: linear-gradient(to right,
+        #CC1530 0%,
+        #CC1530 16.6%,
+        #EF7C24 16.6%,
+        #EF7C24 33.2%,
+        #FAE81A 33.2%,
+        #FAE81A 49.8%,
+        #9CC03C 49.8%,
+        #9CC03C 66.4%,
+        #008AB7 66.4%,
+        #008AB7 83%,
+        #5C2C91 83%,
+        #5C2C91 100%
+    );
+    width: 35px; /* Make the lines thinner to match the image */
+}
+
+/**** Header ****/
 
 header a {
     margin: 0;
@@ -26,14 +64,15 @@ header a {
 }
 
 header {
-    background-image: url('../images/sky.jpg');
+    background-image: url('../public/images/sky.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px;
 }
 
-header svg, footer svg {
+header svg,
+footer svg {
     width: 20px;
     height: 20px;
 }
@@ -42,44 +81,144 @@ header svg, footer svg {
     display: none;
 }
 
-/* Main */
-
-article#about > section.container:first-of-type {
+/**** Main ****/
+/* About - Setting the Stage */
+article#about>section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
     padding: 10px;
+    padding-bottom: 50px;
 }
 
-article#about > section.container:nth-of-type(2){
-    background-image: url('../images/sky.jpg');
+/* About - Modern CSS Under the Spotlight */
+article#about>section.container:nth-of-type(2) {
+    background-image: url('../public/images/sky.jpg');
     background-size: cover;
     background-position: center;
     color: #5C2C91;
     padding: 10px;
+    padding-bottom: 50px;
+}
+/* skittles list */
+article#about>section.container:nth-of-type(2) ul {
+    list-style: none;
+    padding-left: 0;
+}
+article#about>section.container:nth-of-type(2) ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+article#about > section.container:nth-of-type(2) ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-image: url('../public/images/red.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+article#about > section.container:nth-of-type(2) ul li:nth-child(2n):before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-image: url('../public/images/orange.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+article#about > section.container:nth-of-type(2) ul li:nth-child(5n-2):before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-image: url('../public/images/yellow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-article#guidelines > section.container:first-of-type {
+/* About - Guidelines */
+article#guidelines>section.container:first-of-type {
     background-color: #5C2C91;
     color: white;
     padding: 10px;
 }
 
+/* About - Contribute */
 article#contribute {
     background-color: #5C2C91;
     color: white;
     padding-top: 10px;
 }
 
+/* About - Steps to Contribute */
 .profile {
     background-color: #5C2C91;
     color: white;
     padding: 10px;
+    padding-bottom: 50px;
 }
 
-#styles {
+/* Source Files */
+footer#files {
     background-color: #FAE81A;
     color: #5C2C91;
     padding: 10px;
+    padding-bottom: 50px;
+    display: grid;
+    place-content: center;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+//   #files h3 {
+//     height: 0;
+//     opacity: 0;
+//   }
+#files .container {
+    display: inline-block;
+    padding: 5em 15em;
+    background-color: #FAE81A;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 1.4em;
+}
+
+#files .container a:not(:last-child) {
+    margin: 5rem;
+    background-image: url('../public/images/red.svg');
+    // background-position: center;
+    background-repeat: no-repeat;
+}
+
+#files .container a:not(:last-child):not(.link-codepen) {
+    font-size: clamp(4.5rem, 4vw, 4rem);
+    // font-family: "Akaya Kanadaka", decorative;
+    color: #27337d;
+}
+
+/**** Featured Styles ****/
+aside#styles {
+    background-image: url('../public/images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5C2C91;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 a {
@@ -87,21 +226,33 @@ a {
     color: #EF7C24;
 }
 
+/* Created and maintained by Stephanie... */
+/* need to find way to keep in one place or add an animation to it -Rachael */
+aside#profile {
+    background-color: #5C2C91;
+}
 
 /* Footer */
-
-footer#files {
-    background-image: url('../images/sky.jpg');
+footer.page-footer {
+    background-color: #9CC03C;
     background-size: cover;
     background-position: center;
-    color: #5C2C91;
+    color: #fff;
     padding: 10px;
 }
 
-footer.page-footer {
-    background-image: url('../images/sky.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #5C2C91;
-    padding: 10px;
+@media (max-width: 1000px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-left: -10px;
+    }
+
+    nav ul li {
+        flex-grow: 0;
+        width: 100%;
+    }
 }
