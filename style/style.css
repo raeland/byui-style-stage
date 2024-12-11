@@ -305,10 +305,6 @@ aside#styles {
 
 /* Created and maintained by Stephanie... */
 /* need to find way to keep in one place or add an animation to it -Rachael */
-.container .profile {
-  background-color: #5C2C91;
-}
-
 aside.profile {
   width: 95vw;
   max-width: 80ch;
