@@ -226,6 +226,46 @@ article#contribute {
 ///////////////////////////
 /* Source Files */
 ///////////////////////////
+// #files {
+//     background-color: #FAE81A;
+//     color: #5C2C91;
+//     padding: 10px;
+//     padding-bottom: 50px;
+//     display: grid;
+//     place-content: center;
+//     margin: 5vh auto;
+//     text-align: center;
+// }
+// #files .container .link-downloadcss .link-downloadhtml {
+//     font-size: .2rem;
+// }
+// #files .container {
+//     display: inline-block;
+//     padding: 5em;
+//     text-align: center;
+//     margin-top: 1.4em;
+// }
+// #files .container a {
+//     font-size: clamp(1.5rem, 1vw, 1rem);
+//     width: 20px; /* Adjust size as needed */
+//     height: 20px; /* Adjust size as needed */
+//     background-image: url('../public/images/red.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
+// #files .container a:not(:last-child):not(.link-codepen) {
+//     background-image: url('../public/images/blue.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
+// #files .container a:not(:last-child):not(.link-codepen) {
+//     background-image: url('../public/images/green.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
 #files {
     background-color: #FAE81A;
     color: #5C2C91;
@@ -236,35 +276,48 @@ article#contribute {
     margin: 5vh auto;
     text-align: center;
 }
-#files .container .link-downloadcss .link-downloadhtml {
-    font-size: .2rem;
-}
+
 #files .container {
     display: inline-block;
     padding: 5em;
     text-align: center;
     margin-top: 1.4em;
 }
+
 #files .container a {
+    display: inline-block;
     font-size: clamp(1.5rem, 1vw, 1rem);
     width: 20px; /* Adjust size as needed */
     height: 20px; /* Adjust size as needed */
+    position: relative;
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+#files .container a::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; /* Places the image below the link text */
+}
+
+#files .container .link-downloadcss::before {
     background-image: url('../public/images/red.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-#files .container a:not(:last-child):not(.link-codepen) {
+
+#files .container .link-downloadhtml::before {
     background-image: url('../public/images/blue.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-#files .container a:not(:last-child):not(.link-codepen) {
+
+#files .container .link-codepen::before {
     background-image: url('../public/images/green.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 ///////////////////////////
