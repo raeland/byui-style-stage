@@ -1,0 +1,25 @@
+
+
+header a {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows */
+  }
+
+
+  header {
+    grid-row: 2; /* Keep the header in the second row */
+    position: relative; /* Allow positioning for layered content */
+    background-image: 
+        url("../public/images/giraffe.png"), 
+        url("../public/images/sky.jpg"); /* Layered images */
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center;
+    background-size: auto, cover; /* Ensure proper scaling */
+    height: auto; /* Let content dictate height */
+    min-height: 300px; /* Ensure enough space for images */
+}

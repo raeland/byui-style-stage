@@ -389,12 +389,19 @@ header a {
 }
 
 header {
-  background-image: url("../public/images/sky.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 10px;
+  grid-row: 2;
+  position: relative;
+  background-image: 
+      url("../public/images/giraffe.png"), 
+      url("../public/images/sky.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center right, center;
+  background-size: 30%, cover;
+  min-height: 500px;
 }
+
+
+
 
 header svg,
 footer svg {
@@ -481,7 +488,6 @@ footer.page-footer {
   height: 200px;
   border-radius: 50%;
   display: flex;
-  animation: orbit 12s linear infinite;
 }
 
 @keyframes orbit {
