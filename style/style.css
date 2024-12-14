@@ -87,13 +87,14 @@ footer > div > ul > li:nth-child(2) > a > svg {
 body::after {
   content: "";
   position: fixed;
-  right: 5%;
+  right: 10%;
   top: 0;
   bottom: 0;
   width: 30px;
   pointer-events: none;
   background: linear-gradient(to right, #CC1530 0%, #CC1530 16.6%, #EF7C24 16.6%, #EF7C24 33.2%, #FAE81A 33.2%, #FAE81A 49.8%, #9CC03C 49.8%, #9CC03C 66.4%, #008AB7 66.4%, #008AB7 83%, #5C2C91 83%, #5C2C91 100%);
   width: 35px;
+  padding-left: 3px;
 }
 
 /**** Main ****/
@@ -406,10 +407,9 @@ header {
   position: relative; /* Allow positioning for layered content */
   background-image: url("../public/images/giraffe.png"), url("../public/images/sky.jpg"); /* Layered images */
   background-repeat: no-repeat, no-repeat;
-  background-position: center top, center;
-  background-size: auto, cover; /* Ensure proper scaling */
-  height: auto; /* Let content dictate height */
-  min-height: 300px; /* Ensure enough space for images */
+  background-position: 120% 25%, center;
+  background-size: 55%, cover;
+  min-height: 700px;
 }
 
 header svg,
@@ -474,10 +474,6 @@ body {
 
 nav {
   grid-row: 1; /* Place nav in the first row */
-}
-
-header {
-  grid-row: 2; /* Place header in the second row */
 }
 
 footer.page-footer {

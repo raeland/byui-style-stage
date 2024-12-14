@@ -52,7 +52,7 @@ footer > div > ul > li:nth-child(2) > a > svg  {
 body::after {
     content: '';
     position: fixed;
-    right: 5%;
+    right: 10%;
     top: 0;
     bottom: 0;
     width: 30px;
@@ -72,6 +72,7 @@ body::after {
         #5C2C91 100%
     );
     width: 35px;
+    padding-left: 3px;
 }
 ///////////////////////////
 /**** Main ****/
