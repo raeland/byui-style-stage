@@ -4,13 +4,19 @@ header a {
 }
 
 header {
-  background-image: url('../public/images/sky.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 10px;
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows */
+  grid-row: 2; /* Keep the header in the second row */
+  position: relative; /* Allow positioning for layered content */
+  background-image: 
+      url("../public/images/giraffe.png"), 
+      url("../public/images/sky.jpg"); /* Layered images */
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center;
+  background-size: auto, cover; /* Ensure proper scaling */
+  height: auto; /* Let content dictate height */
+  min-height: 300px; /* Ensure enough space for images */
 }
-
 header svg,
 footer svg {
   width: 20px;
