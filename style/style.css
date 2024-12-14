@@ -395,6 +395,46 @@ header a {
   padding: 0;
 }
 
+/****** Star on Github ******/
+
+span, .link-github svg {
+  display: none;
+}
+
+.link-github {
+  display: inline-block;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+header .link-github {
+  margin-left: 5%;
+  background-color: #CC1530;
+  border-radius: 50%;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-wrap: ;
+}
+
+
+
+/****** Skittle Cursor ******/
+
+html, body::after {
+  cursor: url('../public/images/red-small.svg') 8 8, pointer;
+}
+
+a:hover {
+  cursor: url('../public/images/purple-small.svg') 8 8, pointer;
+}
+
+a:active {
+  cursor: url('../public/images/orange-small.svg') 8 8, pointer;
+}
+
 
 /****** Giraffe ******/
 /****** Desktop ******/
