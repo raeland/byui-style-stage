@@ -20,12 +20,19 @@
     p:nth-of-type(2) {
       align-self: center;
       margin-top: 2rem;
-      //color: #ffdeda;
-      //font-size: 1.5em;
+      color: #ffdeda;
+      font-size: 5em;
       font-weight: var(--font-weight-strong);
       text-align: center;
     }
-
+    p:nth-of-type(2) h3 {
+      align-self: center;
+      margin-top: 2rem;
+      color: #ffdeda;
+      font-size: 15em;
+      font-weight: var(--font-weight-strong);
+      text-align: center;
+    }
     // h3 {
     //   background-color: #ffdeda;
     // }

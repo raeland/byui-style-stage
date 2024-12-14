@@ -70,6 +70,20 @@ a {
   font-weight: bold;
 }
 
+.skip-link {
+  display: none;
+}
+
+a > span > svg {
+  width: 1em;
+  height: 1em;
+}
+
+footer > div > ul > li:nth-child(2) > a > svg {
+  width: 1em;
+  height: 1em;
+}
+
 body::after {
   content: "";
   position: fixed;
@@ -243,14 +257,11 @@ article#contribute {
 
 /* Source Files */
 #files {
-  background-color: #FAE81A;
-  color: #5C2C91;
-  padding: 10px;
-  padding-bottom: 50px;
   display: grid;
-  place-content: center;
-  margin: 5vh auto;
-  text-align: center;
+  grid-template-rows: auto auto auto;
+  grid-row: 3; /* Keep the header in the second row */
+  position: relative; /* Allow positioning for layered content */
+  background-color: #FAE81A;
 }
 
 #files .container .link-downloadcss .link-downloadhtml {
@@ -259,9 +270,9 @@ article#contribute {
 
 #files .container {
   display: inline-block;
-  padding: 5em;
-  text-align: center;
-  margin-top: 1.4em;
+  padding: 2em;
+  text-align: left;
+  margin-top: 0;
 }
 
 #files .container a {
@@ -411,9 +422,6 @@ footer svg {
   display: none;
 }
 
-/****** ALDAIR ******/
-/* LINES 62-125 on the _nav.scss file need to be reviewed ********************/
-/* commented out nav below shows the top nav version but doesn't spread wide */
 nav ul {
   list-style: none; /* Remove default bullet points */
   margin: 0; /* Remove default margins */
@@ -472,13 +480,16 @@ header {
   grid-row: 2; /* Place header in the second row */
 }
 
-/* Nav */
 footer.page-footer {
   background-color: #9CC03C;
   background-size: cover;
   background-position: center;
   color: #fff;
   padding: 10px;
+}
+
+ul li {
+  list-style: none;
 }
 
 .profile {

@@ -37,13 +37,14 @@ a {
     color: white;
     font-weight: bold;
 }
-a > span > svg
-  {
+.skip-link {
+    display: none;
+  }
+a > span > svg   {
     width: 1em;
     height: 1em;
   }
-  footer > div > ul > li:nth-child(2) > a > svg
-  {
+footer > div > ul > li:nth-child(2) > a > svg  {
     width: 1em;
     height: 1em;
   }
@@ -237,23 +238,20 @@ article#contribute {
 /* Source Files */
 ///////////////////////////
 #files {
-    background-color: #FAE81A;
-    color: #5C2C91;
-    padding: 10px;
-    padding-bottom: 50px;
     display: grid;
-    place-content: center;
-    margin: 5vh auto;
-    text-align: center;
+    grid-template-rows: auto auto auto; 
+    grid-row: 3; /* Keep the header in the second row */
+    position: relative; /* Allow positioning for layered content */
+    background-color: #FAE81A;
 }
 #files .container .link-downloadcss .link-downloadhtml {
     font-size: .2rem;
 }
 #files .container {
     display: inline-block;
-    padding: 5em;
-    text-align: center;
-    margin-top: 1.4em;
+    padding: 2em;
+    text-align: left;
+    margin-top: 0;
 }
 #files .container a {
     font-size: clamp(1.5rem, 1vw, 1rem);
@@ -276,6 +274,7 @@ article#contribute {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 ///////////////////////////
 /**** Featured Styles ****/
