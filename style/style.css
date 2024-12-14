@@ -36,6 +36,11 @@ a {
   color: #EF7C24;
 }
 
+
+header .link-github {
+  margin-left: 5%;
+}
+
 /****** Links Animation ******/
 a {
   transition: transform 0.3s ease;
@@ -553,9 +558,9 @@ nav ul li:nth-child(6) {
 
 nav ul li a {
   display: block; /* Makes the links fill the list item */
-  color: white; /* Text color for contrast */
-  padding: 15px; /* Add spacing for better look */
-  text-align: center; /* Centers the text */
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
 
 body {
