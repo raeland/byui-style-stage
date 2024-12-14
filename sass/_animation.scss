@@ -1,7 +1,13 @@
-
+aside .profile{
+  background-image: url('../public/images/sky.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .profile {
   border-radius: 20px;
-  animation: orbit 12s linear infinite;
+  animation: orbit 6s linear infinite;
   // width: 200px;
   // height: 200px;
   //   border-radius: 50%;

@@ -84,9 +84,10 @@ footer > div > ul > li:nth-child(2) > a > svg {
   height: 1em;
 }
 
-body::after {
+main::after {
   content: "";
   position: fixed;
+  padding-left: 3px;
   right: 10%;
   top: 0;
   bottom: 0;
@@ -94,7 +95,11 @@ body::after {
   pointer-events: none;
   background: linear-gradient(to right, #CC1530 0%, #CC1530 16.6%, #EF7C24 16.6%, #EF7C24 33.2%, #FAE81A 33.2%, #FAE81A 49.8%, #9CC03C 49.8%, #9CC03C 66.4%, #008AB7 66.4%, #008AB7 83%, #5C2C91 83%, #5C2C91 100%);
   width: 35px;
-  padding-left: 3px;
+}
+
+header::after,
+nav::after {
+  display: none;
 }
 
 /**** Main ****/
@@ -488,9 +493,17 @@ ul li {
   list-style: none;
 }
 
+aside .profile {
+  background-image: url("../public/images/sky.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .profile {
   border-radius: 20px;
-  animation: orbit 12s linear infinite;
+  animation: orbit 6s linear infinite;
 }
 
 @keyframes orbit {
