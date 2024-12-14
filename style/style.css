@@ -33,7 +33,6 @@ article#about > section.container:nth-of-type(2) a,
 }
 
 a {
-  text-decoration: none;
   color: #EF7C24;
 }
 
@@ -367,7 +366,6 @@ aside.profile ul {
 }
 
 a {
-  text-decoration: none;
   color: #EF7C24;
 }
 
@@ -498,7 +496,6 @@ nav ul li:nth-child(6) {
 nav ul li a {
   display: block; /* Makes the links fill the list item */
   color: white; /* Text color for contrast */
-  text-decoration: none; /* Removes underline */
   padding: 15px; /* Add spacing for better look */
   text-align: center; /* Centers the text */
 }
