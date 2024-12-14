@@ -37,7 +37,17 @@ a {
     color: white;
     font-weight: bold;
 }
-
+a > span > svg
+  {
+    width: 1em;
+    height: 1em;
+  }
+  footer > div > ul > li:nth-child(2) > a > svg
+  {
+    width: 1em;
+    height: 1em;
+  }
+  
 body::after {
     content: '';
     position: fixed;
