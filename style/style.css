@@ -71,7 +71,7 @@ ol li a {
   transition: transform 0.3s ease;
 }
 
-article#guidelines a, section a{
+article#guidelines a, section a, aside a{
   transition: transform 0.3s ease;
   display:inline-block;
 }
@@ -83,17 +83,45 @@ a {
   font-weight: bold;
 }
 
+
+/* Rainbow */
+
 body::after {
   content: "";
   position: fixed;
   right: 5%;
   top: 0;
-  bottom: 0;
-  width: 30px;
-  pointer-events: none;
-  background: linear-gradient(to right, #CC1530 0%, #CC1530 16.6%, #EF7C24 16.6%, #EF7C24 33.2%, #FAE81A 33.2%, #FAE81A 49.8%, #9CC03C 49.8%, #9CC03C 66.4%, #008AB7 66.4%, #008AB7 83%, #5C2C91 83%, #5C2C91 100%);
   width: 35px;
+  height: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    #cc1530 0%,
+    #cc1530 16.6%,
+    #ef7c24 16.6%,
+    #ef7c24 33.2%,
+    #fae81a 33.2%,
+    #fae81a 49.8%,
+    #9cc03c 49.8%,
+    #9cc03c 66.4%,
+    #008ab7 66.4%,
+    #008ab7 83%,
+    #5c2c91 83%,
+    #5c2c91 100%
+  );
+  background-size: 100% 200%;
+  animation: grow-gradient 5s forwards;
 }
+
+@keyframes grow-gradient {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 120vh;
+  }
+}
+
 
 /**** Main ****/
 /* About - Setting the Stage */
@@ -531,7 +559,7 @@ header {
 @media (max-width: 500px) {
   header {
     background-size: 80%, cover;
-    background-position: 80% 110%, center;
+    background-position: 95% 120%, center;
     max-height: 50%;
     }
 
