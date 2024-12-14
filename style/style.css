@@ -357,7 +357,7 @@ aside.profile {
   width: 95vw;
   max-width: 80ch;
   margin: 1rem auto 1vh;
-  padding: 1.25rem;
+  padding: 0;
   z-index: 1;
   overflow-x: hidden;
 }
@@ -517,7 +517,7 @@ footer.page-footer {
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 10px;
+  padding: 0;
 }
 
 ul li {
