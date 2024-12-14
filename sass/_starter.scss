@@ -49,11 +49,11 @@ footer > div > ul > li:nth-child(2) > a > svg  {
     height: 1em;
   }
 
-main::after {
+  body::after {
     content: '';
     position: fixed;
     padding-left: 3px;
-    right: 10%;
+    right: 5%;
     top: 0;
     bottom: 0;
     width: 30px;
@@ -73,7 +73,17 @@ main::after {
         #5C2C91 100%
     );
     width: 35px;
+    background-size: 100% 200%;
+    animation: grow-gradient 5s forwards;
 }
+@keyframes grow-gradient {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 120vh;
+    }
+  }
 header,
 nav {
     &::after {
@@ -255,7 +265,7 @@ article#contribute {
     font-size: .2rem;
 }
 #files .container {
-    display: inline-block;
+    // display: inline-block;
     padding: 2em;
     text-align: left;
     margin-top: 0;

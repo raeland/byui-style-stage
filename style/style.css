@@ -37,6 +37,28 @@ a {
   color: #EF7C24;
 }
 
+/****** Links Animation ******/
+a {
+  transition: transform 0.3s ease;
+}
+
+a:hover, p a:hover {
+  transform: scale(0.9); /* Scale the link up slightly */
+}
+
+/****** Skittle Cursor ******/
+html, body::after {
+  cursor: url("../public/images/red-small.svg") 8 8, pointer;
+}
+
+a:hover {
+  cursor: url("../public/images/purple-small.svg") 8 8, pointer;
+}
+
+a:active {
+  cursor: url("../public/images/orange-small.svg") 8 8, pointer;
+}
+
 /* General*/
 body {
   margin: 0;
@@ -84,19 +106,29 @@ footer > div > ul > li:nth-child(2) > a > svg {
   height: 1em;
 }
 
-main::after {
+body::after {
   content: "";
   position: fixed;
   padding-left: 3px;
-  right: 10%;
+  right: 5%;
   top: 0;
   bottom: 0;
   width: 30px;
   pointer-events: none;
   background: linear-gradient(to right, #CC1530 0%, #CC1530 16.6%, #EF7C24 16.6%, #EF7C24 33.2%, #FAE81A 33.2%, #FAE81A 49.8%, #9CC03C 49.8%, #9CC03C 66.4%, #008AB7 66.4%, #008AB7 83%, #5C2C91 83%, #5C2C91 100%);
   width: 35px;
+  background-size: 100% 200%;
+  animation: grow-gradient 5s forwards;
 }
 
+@keyframes grow-gradient {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 120vh;
+  }
+}
 header::after,
 nav::after {
   display: none;
@@ -275,7 +307,6 @@ article#contribute {
 }
 
 #files .container {
-  display: inline-block;
   padding: 2em;
   text-align: left;
   margin-top: 0;

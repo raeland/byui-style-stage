@@ -44,3 +44,23 @@ a {
     text-decoration: none;
     color: #EF7C24;
 }
+
+/****** Links Animation ******/
+a {
+    transition: transform 0.3s ease;
+  }
+  
+a:hover, p a:hover {
+    transform: scale(0.9); /* Scale the link up slightly */
+}
+  
+/****** Skittle Cursor ******/
+html, body::after {
+    cursor: url('../public/images/red-small.svg') 8 8, pointer;
+}
+a:hover {
+  cursor: url('../public/images/purple-small.svg') 8 8, pointer;
+}
+a:active {
+    cursor: url('../public/images/orange-small.svg') 8 8, pointer;
+}
