@@ -439,18 +439,11 @@ span, .link-github svg {
 
 .link-github {
   display: inline-block;
-  font-size: inherit;
-  color: inherit;
 }
 
 
 header .link-github {
-  margin-left: 5%;
-  background-color: #CC1530;
-  border-radius: 50%;
-  color: white;
-  padding: 30px;
-  text-align: center;
+  margin-left: 10%;
 }
 
 header .link-github:hover {
