@@ -1,10 +1,12 @@
 
 .profile {
-  width: 200px;
-  height: 200px;
-    border-radius: 50%;
-    display: flex;
-    animation: orbit 12s linear infinite;
+  border-radius: 20px;
+  animation: orbit 12s linear infinite;
+  // width: 200px;
+  // height: 200px;
+  //   border-radius: 50%;
+  //   display: flex;
+  //   animation: orbit 12s linear infinite;
 }
 
 @keyframes orbit{
