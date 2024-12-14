@@ -157,6 +157,10 @@ article#about > section.container:nth-of-type(2) {
   padding-bottom: 50px;
 }
 
+article#about > section.container:nth-of-type(2) ul li{
+  font-weight: bold;
+}
+
 /* skittles list */
 article:nth-child(1) section:nth-child(2) ul {
   list-style: none;
@@ -317,24 +321,21 @@ article#contribute {
 }
 
 #files .container a {
-  font-size: clamp(1.5rem, 1vw, 1rem);
+  font-size: clamp(1.2rem, 1vw, 1rem);
   width: 20px;
   height: 20px;/
-  background-image: url("../public/images/red.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #files .container a:not(:last-child):not(.link-codepen) {
-  background-image: url("../public/images/blue.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #files .container a:not(:last-child):not(.link-codepen) {
-  background-image: url("../public/images/green.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
