@@ -38,7 +38,6 @@ article#about > section.container:nth-of-type(2) a,
 }
 
 a {
-  text-decoration: none;
   color: #EF7C24;
 }
 
@@ -60,15 +59,24 @@ ol li {
   margin-right: 15%;
 }
 
+
 p a,
 ul li a,
 ol li a {
-  display: inline;
+  display:inline-block;
   padding: 0;
   margin: 0;
   font-weight: bold;
   line-height: normal;
+  transition: transform 0.3s ease;
 }
+
+article#guidelines a, section a{
+  transition: transform 0.3s ease;
+  display:inline-block;
+}
+
+
 
 a {
   color: white;
@@ -324,7 +332,6 @@ aside.profile ul {
 }
 
 a {
-  text-decoration: none;
   color: #EF7C24;
 }
 
@@ -390,12 +397,13 @@ a {
 }
 
 
+
+/****** Star on Github ******/
+
 header a {
   margin: 0;
   padding: 0;
 }
-
-/****** Star on Github ******/
 
 span, .link-github svg {
   display: none;
@@ -405,7 +413,6 @@ span, .link-github svg {
   display: inline-block;
   font-size: inherit;
   color: inherit;
-  text-decoration: none;
 }
 
 
@@ -416,8 +423,26 @@ header .link-github {
   color: white;
   padding: 30px;
   text-align: center;
-  text-wrap: ;
 }
+
+header .link-github:hover {
+  background-color: #EF7C24;
+}
+
+header .link-github:active {
+  background-color: #FAE81A;
+}
+
+/****** Links Animation ******/
+
+a {
+  transition: transform 0.3s ease;
+}
+
+a:hover, p a:hover {
+  transform: scale(0.9); /* Scale the link up slightly */
+}
+
 
 
 
@@ -569,8 +594,7 @@ nav ul li:nth-child(6) {
 
 nav ul li a {
   display: block; /* Makes the links fill the list item */
-  color: white; /* Text color for contrast */
-  text-decoration: none; /* Removes underline */
+  color: white; /* Text color for contrast *//* Removes underline */
   padding: 10px; /* Add spacing for better look */
   text-align: center; /* Centers the text */
 }
